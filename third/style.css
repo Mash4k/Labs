@@ -1,0 +1,151 @@
+a{ 
+    color: white;
+    text-decoration: none;
+}
+
+*{
+    margin:0;
+    transition-property:background-color,border-color,box-shadow,color,opacity ;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #8dcee7;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.head_navigation{ 
+    display: flex;
+    list-style-type: none;
+
+}
+
+.head_nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+   
+}
+
+.head__item {
+    padding: 15px 15px;
+    font-size: 20px;
+    margin-left: 5px;
+    
+}
+
+.head__item:hover {
+    background-color: #2be73b;
+    border-radius: 150px;
+}
+
+.headButton{ 
+    cursor:pointer;
+}
+
+#logo{
+    color:black;
+    font-style: italic;
+    font-size: large;
+    display:flex;
+    justify-content: end;
+    width:125px;
+    height: 175px;
+    background:url(https://front-dev.mangalib.me/uploads/team/amnepohjaoduvanchik/cover/Im2JRf81iVQV_thumb.jpg);
+}
+.navigation{
+    background-color: #8dcee7;
+    width: 110px;
+    height: 250px;
+    position:static;
+    border-radius: 15%;
+    margin-top: 10px;
+    border: 3px solid black;
+}
+
+.container{
+    padding: 20px;
+    padding-left: 7px;
+    margin-left: 7px;
+    width: 14px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #8dcee7;
+}
+
+
+
+.products{
+    margin-left:3cm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products-card{ padding: 2%;
+    flex-grow: 1;
+    flex: basis 25%;
+    justify-content: center;
+}
+
+.product-image img{
+    max-width: 300px;
+    max-height: 250px;
+   
+}
+
+
+.product-info{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    margin-top:auto;
+    justify-content: left;
+}
+
+.lilies__product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+button{
+
+    width: 250px;
+    height: 55px;
+    background-color: #8dcee7;
+    border-radius: 5%;
+    margin-top: 30px;
+}
+button:hover{
+    background-color:#c91515;
+    color: #9ac031;
+}
+
+
+
+.footer{
+    display: flex;
+    font-size: large;
+    background-color: #8dcee7;
+    padding: 15px,15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-around;
+    
+}
+.Description{
+    color:white;
+
+}
+
+.Adres{
+    color:white;
+}
+
